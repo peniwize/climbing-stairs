@@ -1,0 +1,16 @@
+This submission implements four solutions, which shows the progression from a brute force intuitive solution to the highly optimized Fibonacci like solution.  The solutions are each implemented in their own member functions and the code is heavily annotated to show the thought process (as well as can be expected without graphics or markup).
+
+Solution 1 (Time=O(2^n); Space=O(n)):
+	climbStairs_BruteForce(int const n)
+	climbStairs_BruteForce_Recursive(int const n, int currentStep)
+
+Solution 2 (Time=O(2^n); Space=O(n)):
+	climbStairs_Backward_BruteForce_Recursive(int const n)
+
+Solution 3 (Time=O(n); Space=O(n)):
+	climbStairs_Backward_Memoized_Recursive(int const n, int cache[])
+	climbStairs_Backward_Memoized(int const n)
+
+Solution 4 (Time=O(n); Space=O(1)):
+	climbStairs_Optimized(int n)
+
